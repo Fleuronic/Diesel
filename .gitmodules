@@ -1,0 +1,9 @@
+[submodule "DieselAPI"]
+	path = Submodules/DieselAPI
+	url = https://github.com/Fleuronic/DieselAPI
+[submodule "DieselDatabase"]
+	path = Submodules/DieselDatabase
+	url = https://github.com/Fleuronic/DieselDatabase
+[submodule "DieselService"]
+	path = Submodules/DieselService
+	url = https://github.com/Fleuronic/DieselService
