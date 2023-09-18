@@ -2,13 +2,12 @@
 
 --disable blankLinesAroundMark
 --disable hoistPatternLet
---disable sortedImports
+--disable sortImports
 --disable trailingCommas
 --disable preferKeypath
 
 --decimalgrouping ignore
 --ifdef outdent
 --indent tab
---nospaceoperators ...,..<
 --tabwidth 4
 --stripunusedargs closure-only
