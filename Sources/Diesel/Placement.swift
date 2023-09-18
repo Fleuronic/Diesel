@@ -5,9 +5,9 @@ public struct Placement {
 	public let score: Double
 
 	public init(
-        rank: Int,
-        score: Double
-    ) {
+		rank: Int,
+		score: Double
+	) {
 		self.rank = rank
 		self.score = score
 	}

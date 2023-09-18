@@ -1,13 +1,8 @@
+--disable all
+
+--enable indent
 --enable isEmpty
 
---disable blankLinesAroundMark
---disable hoistPatternLet
---disable sortImports
---disable trailingCommas
---disable preferKeypath
-
---decimalgrouping ignore
---ifdef outdent
 --indent tab
 --tabwidth 4
 --stripunusedargs closure-only
