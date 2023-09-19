@@ -3,7 +3,7 @@
     "build" : {
       "postActions" : [
         {
-          "script" : "#!\/bin\/sh\nxcodebuild -scheme Diesel -destination 'platform=macOS'",
+          "script" : "#!\/bin\/sh\nxcodebuild -scheme Diesel -destination 'platform=macOS'\n",
           "type" : "runScript"
         }
       ]
