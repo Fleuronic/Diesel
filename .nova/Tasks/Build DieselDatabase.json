@@ -3,7 +3,7 @@
     "build" : {
       "postActions" : [
         {
-          "script" : "#!\/bin\/sh\ncd Submodules\/DieselDatabase; xcodebuild -scheme DieselDatabase -destination 'platform=macOS'\n",
+          "script" : "#!\/bin\/sh\nswift build --package-path Submodules\/DieselDatabase",
           "type" : "runScript"
         }
       ]
