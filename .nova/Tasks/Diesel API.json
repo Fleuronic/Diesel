@@ -3,6 +3,11 @@
     "build" : {
       "enabled" : true,
       "script" : "#!\/bin\/sh\nswift build --package-path Submodules\/DieselAPI"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nswift package update --package-path Submodules\/DieselAPI"
     }
-  }
+  },
+  "openLogOnRun" : "start"
 }
