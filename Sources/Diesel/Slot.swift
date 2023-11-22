@@ -1,11 +1,11 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-import struct Foundation.TimeInterval
+import struct Foundation.Date
 
 public struct Slot {
-	public let time: TimeInterval?
+	public let time: Date?
 
-	public init(time: TimeInterval?) {
+	public init(time: Date?) {
 		self.time = time
 	}
 }
