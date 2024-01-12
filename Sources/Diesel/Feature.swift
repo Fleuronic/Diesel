@@ -1,5 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-public struct Feature {
+import InitMacro
+
+@Init public struct Feature {
 	public let name: String
 }
