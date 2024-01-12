@@ -1,9 +1,7 @@
 // Copyright © Fleuronic LLC. All rights reserved.
 
-public struct Show {
-	public let name: String
+import InitMacro
 
-	public init(name: String) {
-		self.name = name
-	}
+@Init public struct Show {
+	public let name: String
 }
