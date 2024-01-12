@@ -13,15 +13,15 @@ let package = Package(
 		.library(
 			name: "Diesel",
 			targets: [
-				"Diesel"
+				"Diesel",
 			]
 		)
 	],
-	dependencies: [],
+	dependencies: [.package(url: "https://github.com/LeonardoCardoso/InitMacro.git", branch: "main")],
 	targets: [
 		.target(
 			name: "Diesel",
-			dependencies: []
+			dependencies: ["InitMacro"]
 		)
 	]
 )
