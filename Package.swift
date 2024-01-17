@@ -12,9 +12,7 @@ let package = Package(
 	products: [
 		.library(
 			name: "Diesel",
-			targets: [
-				"Diesel",
-			]
+			targets: ["Diesel"]
 		)
 	],
 	dependencies: [.package(url: "https://github.com/LeonardoCardoso/InitMacro.git", branch: "main")],
